@@ -7,8 +7,6 @@ import BuilderMode from './components/builder/BuilderMode';
 import ArticleList from './components/ArticleList';
 import { ArticleService } from './services/ArticleService';
 import { generateUUID } from './utils/uuid';
-import { ArticleService } from './services/ArticleService';
-import { generateUUID } from './utils/uuid';
 
 function App() {
   const [selectedBlockId, setSelectedBlockId] = useState<string | null>(null);
