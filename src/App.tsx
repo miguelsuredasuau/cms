@@ -13,7 +13,6 @@ function App() {
   const [isBuilderMode, setIsBuilderMode] = useState(false);
   const [currentView, setCurrentView] = useState<'list' | 'article' | 'builder'>('list');
   const [currentArticle, setCurrentArticle] = useState<PostData | null>(null);
-  const [currentArticle, setCurrentArticle] = useState<PostData | null>(null);
 
   const handleSelectArticle = async (id: string) => {
     try {
