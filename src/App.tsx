@@ -134,6 +134,7 @@ function App() {
       <ArticleList 
         onSelectArticle={handleSelectArticle}
   )
+  )
   const handleSelectArticle = async (id: string) => {
     try {
       const article = await ArticleService.getArticle(id);
@@ -252,5 +253,6 @@ function App() {
       />
     </div>
   );
+}
 }
 }
